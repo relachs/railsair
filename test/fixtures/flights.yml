@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+dus_ham:
+  nr: blub1
+  departure_datetime: 2010-09-06 17:26:44
+  arrival_datetime: 2010-09-06 17:26:44
+  departure_airport_id: 3
+  arrival_airport_id: 2
+
+ham_lax:
+  nr: blub2
+  departure_datetime: 2010-09-06 17:26:44
+  arrival_datetime: 2010-09-06 17:26:44
+  departure_airport_id: 2
+  arrival_airport_id: 1

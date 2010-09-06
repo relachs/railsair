@@ -35,4 +35,13 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  def valid_flight_attributes(add_attributes = {})
+    {
+      :nr => "RA123",
+      :departure_datetime => Time.parse("2010-09-06 13:50"),
+      :arrival_datetime => Time.parse("2010-09-06 12:50"),
+      :departure_airport_id => airports(:dus).id,
+      :arrival_airport_id => airports(:ham).id,
+    }.merge(add_attributes)
+  end
 end
