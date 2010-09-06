@@ -1,0 +1,349 @@
+  [4;36;1mCountry Create (37.7ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:48:40', 'DE', '2010-09-03 15:48:40')[0m
+  [4;36;1mCountry Create (0.6ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:49:07', 'DE', '2010-09-03 15:49:07')[0m
+  [4;36;1mCountry Create (0.5ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:49:55', 'DE', '2010-09-03 15:49:55')[0m
+  [4;36;1mCountry Create (0.5ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:51:28', 'DE', '2010-09-03 15:51:28')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:55:01', 'DE', '2010-09-03 15:55:01')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:55:40', 'DE', '2010-09-03 15:55:40')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:56:10', 'DE', '2010-09-03 15:56:10')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:56:15', 'DE', '2010-09-03 15:56:15')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 15:56:37', 'DE', '2010-09-03 15:56:37')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+  [4;35;1mCountry Destroy (0.2ms)[0m   [0mDELETE FROM "countries" WHERE "id" = 333187156[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:01:48', 'DE', '2010-09-03 16:01:48')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+  [4;35;1mCountry Destroy (0.2ms)[0m   [0mDELETE FROM "countries" WHERE "id" = 333187156[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:02:48', 'DE', '2010-09-03 16:02:48')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+  [4;35;1mCountry Destroy (0.5ms)[0m   [0mDELETE FROM "countries" WHERE "id" = 333187156[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Create (0.5ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:38:32', 'DE', '2010-09-03 16:38:32')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:45:22', NULL, '2010-09-03 16:45:22')[0m
+  [4;35;1mCountry Create (0.5ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:45:23', 'DE', '2010-09-03 16:45:23')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:47:15', NULL, '2010-09-03 16:47:15')[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:47:15', 'DE', '2010-09-03 16:47:15')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:47:42', NULL, '2010-09-03 16:47:42')[0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:47:42', 'DE', '2010-09-03 16:47:42')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:48:22', 'DE', '2010-09-03 16:48:22')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:48:42', 'DE', '2010-09-03 16:48:42')[0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:48:42', 'DE', '2010-09-03 16:48:42')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:52:30', 'DE', '2010-09-03 16:52:30')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:54:12', 'DE', '2010-09-03 16:54:12')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:55:55', 'DE', '2010-09-03 16:55:55')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:56:27', 'DE', '2010-09-03 16:56:27')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES(NULL, '2010-09-03 16:56:27', 'DE', '2010-09-03 16:56:27')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:56:41', 'DE', '2010-09-03 16:56:41')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES(NULL, '2010-09-03 16:56:41', 'DE', '2010-09-03 16:56:41')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:57:09', 'DE', '2010-09-03 16:57:09')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES(NULL, '2010-09-03 16:57:09', 'DE', '2010-09-03 16:57:09')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 16:58:14', 'DE', '2010-09-03 16:58:14')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:06:12', 'DE', '2010-09-03 17:06:12')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:06:12', 'DEU', '2010-09-03 17:06:12')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:07:44', 'DE', '2010-09-03 17:07:44')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:08:00', 'DE', '2010-09-03 17:08:00')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:08:00', 'DEU', '2010-09-03 17:08:00')[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:08:48', 'DE', '2010-09-03 17:08:48')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.5ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:11:25', 'DE', '2010-09-03 17:11:25')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:12:13', 'DE', '2010-09-03 17:12:13')[0m
+  [4;35;1mCountry Create (0.9ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 17:12:13', 'DE', '2010-09-03 17:12:13')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.3ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.3ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.5ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:02:55', 'DE', '2010-09-03 18:02:55')[0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:02:55', 'DE', '2010-09-03 18:02:55')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:03:34', 'DE', '2010-09-03 18:03:34')[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:03:34', 'DE', '2010-09-03 18:03:34')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:04:26', 'DE', '2010-09-03 18:04:26')[0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:04:26', 'DE', '2010-09-03 18:04:26')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (1.0ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:45:36', 'BER', '2010-09-03 18:45:36')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:48:26', 'BER', '2010-09-03 18:48:26')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:49:17', 'BER', '2010-09-03 18:49:17')[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:49:17', 'BER', '2010-09-03 18:49:17')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:51:45', 'BER', '2010-09-03 18:51:45')[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:51:45', 'BER', '2010-09-03 18:51:45')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:52:02', 'BER', '2010-09-03 18:52:02')[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:52:04', 'BER', '2010-09-03 18:52:04')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:52:04', 'DE', '2010-09-03 18:52:04')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:52:35', 'BER', '2010-09-03 18:52:35')[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 18:52:35', 'BER', '2010-09-03 18:52:35')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:52:35', 'DE', '2010-09-03 18:52:35')[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-03 18:52:35', 'DE', '2010-09-03 18:52:35')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.5ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 19:05:39', 'BER', '2010-09-03 19:05:39')[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at") VALUES('Berlin Int. Airport', '2010-09-03 19:05:39', 'BER', '2010-09-03 19:05:39')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:14:08', 'BER', '2010-09-03 19:14:08', 1)[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:14:08', 'BER', '2010-09-03 19:14:08', 1)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.5ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:52:40', 'BER', '2010-09-03 19:52:40', 1)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:52:40', 'BER', '2010-09-03 19:52:40', 1)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:56:41', 'BER', '2010-09-03 19:56:41', 1)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:56:41', 'BER', '2010-09-03 19:56:41', 1)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 248439024) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:57:12', 'BER', '2010-09-03 19:57:12', 1)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:57:12', 'BER', '2010-09-03 19:57:12', 1)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 248439024) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:58:19', 'BER', '2010-09-03 19:58:19', 1)[0m
+  [4;36;1mAirport Load (0.4ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 19:58:19', 'BER', '2010-09-03 19:58:19', 1)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio', '2010-09-03 20:02:18', 'TKO', '2010-09-03 20:02:18', 3)[0m
+  [4;36;1mCountry Load (1.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 3) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio', '2010-09-03 20:02:56', 'TKO', '2010-09-03 20:02:56', 3)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio', '2010-09-03 20:03:05', 'TKO', '2010-09-03 20:03:05', 3)[0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 3) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:04:28', 'TKO', '2010-09-03 20:04:28', 3)[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 3) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:05:07', 'TKO', '2010-09-03 20:05:07', 3)[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO' AND "airports".id <> 912262285) LIMIT 1[0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:06:40', 'TKO', '2010-09-03 20:06:40', 3)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO' AND "airports".id <> 912262285) LIMIT 1[0m
+  [4;36;1mCountry Load (0.4ms)[0m   [0;1mSELECT * FROM "countries" [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:07:46', 'TKO', '2010-09-03 20:07:46', 3)[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO' AND "airports".id <> 912262285) LIMIT 1[0m
+  [4;36;1mAirport Load (0.4ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.4ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 20:15:52', 'BER', '2010-09-03 20:15:52', 1)[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-03 20:15:53', 'BER', '2010-09-03 20:15:53', 1)[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:15:53', 'TKO', '2010-09-03 20:15:53', 3)[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (1.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;35;1mAirport Create (0.5ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-03 20:16:03', 'TKO', '2010-09-03 20:16:03', 3)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m

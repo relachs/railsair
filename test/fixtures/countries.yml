@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+spain:
+  code: ES
+  name: Spain
+
+japan:
+  code: JP
+  name: Japan
+  
+usa:
+    code: US
+    name: United States of America

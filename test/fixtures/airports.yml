@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+lax:
+  code: LAX
+  name: LA Int. Airport
+  country: usa
+
+ham:
+  code: HAM
+  name: HH Int. Flughafen
+  country: spain
+  
+dus:
+  code: DUS
+  name: Düsseldorf Int. Flughafen
+  country: japan
