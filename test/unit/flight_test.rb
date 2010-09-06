@@ -26,4 +26,21 @@ class FlightTest < ActiveSupport::TestCase
   test "code of arrival airport should be accessible" do
     assert_equal "HAM", @flight.arrival_airport.code
   end
+  
+  test "#departure_airport_code should be the airport code of the departure airport if it exists" do
+    @flight.build_departure_airport :code => 'LAX'
+    assert_equal @flight.departure_airport_code, 'LAX'
+  end
+  
+  test "#departure_airport_code should be nil if it the departure airport does not exist" do
+    @flight.departure_airport = nil
+    assert_equal @flight.departure_airport_code, nil
+  end
+  
+  test '#departure_airport_code should not raise an error when departure airport is nil' do
+    @flight.departure_airport = nil
+    assert_nothing_raised do
+      @flight.departure_airport_code
+    end
+  end
 end
