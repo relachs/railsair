@@ -3,7 +3,8 @@ class Flight < ActiveRecord::Base
   belongs_to :departure_airport, :class_name => "Airport"
   belongs_to :arrival_airport, :class_name => "Airport"
   
-  def departure_airport_code
-    departure_airport.code unless departure_airport.nil?
-  end
+  # allows you to call flight.departure_airport_code, which simply passes the :code message
+  # on to the :departure_airport.
+  delegate :code, :to => :departure_airport, :prefix => true, :allow_nil => true
+  
 end
