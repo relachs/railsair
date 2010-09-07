@@ -1710,3 +1710,25 @@ Rendering flights/index
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
   [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 1) [0m
 Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/flights]
+
+
+Processing FlightsController#index (for 127.0.0.1 at 2010-09-07 14:08:32) [GET]
+  [4;36;1mFlight Load (84.2ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (116.6ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 3) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 1) [0m
+Completed in 516ms (View: 271, DB: 201) | 200 OK [http://localhost/flights]
+
+
+Processing FlightsController#index (for 127.0.0.1 at 2010-09-07 14:08:41) [GET]
+  [4;35;1mFlight Load (0.7ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 3) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 1) [0m
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/flights]
