@@ -2,14 +2,14 @@
 
 dus_ham:
   nr: blub1
-  departure_datetime: 2010-09-06 17:26:44
+  departure_datetime: 2010-09-06 17:00:44
   arrival_datetime: 2010-09-06 17:26:44
-  departure_airport_id: 3
-  arrival_airport_id: 2
+  departure_airport: dus
+  arrival_airport: ham
 
 ham_lax:
   nr: blub2
-  departure_datetime: 2010-09-06 17:26:44
-  arrival_datetime: 2010-09-06 17:26:44
-  departure_airport_id: 2
-  arrival_airport_id: 1
+  departure_datetime: 2010-09-06 18:10:44
+  arrival_datetime: 2010-09-06 23:11:44
+  departure_airport: ham
+  arrival_airport: lax

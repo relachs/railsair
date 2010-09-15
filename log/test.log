@@ -2156,3 +2156,699 @@ Processing FlightsController#update (for 0.0.0.0 at 2010-09-06 23:27:36) [PUT]
   [4;35;1mFlight Load (0.2ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
 Redirected to http://test.host/flights/491221900
 Completed in 2ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.5ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 12:45:55', 'BER', '2010-09-15 12:45:55', 1)[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.4ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 12:45:55', 'BER', '2010-09-15 12:45:55', 1)[0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-15 12:45:55', 'TKO', '2010-09-15 12:45:55', 3)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.4ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Create (0.4ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 12:45:55', 'DE', '2010-09-15 12:45:55')[0m
+  [4;35;1mCountry Load (0.3ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.4ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 12:45:55', 'DE', '2010-09-15 12:45:55')[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 14:45:55) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_airport_id"=>735778779, "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010}}
+  [4;35;1mFlight Create (0.4ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 12:45:55', '2010-09-06 10:50:00', '2010-09-15 12:45:55', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 7ms (DB: 15) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (1.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 14:45:55) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.3ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 3) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 14:45:55) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 61ms (View: 60, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 14:45:55) [GET]
+  [4;36;1mFlight Load (0.6ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 3) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 1) [0m
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 14:45:55) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 26ms (View: 26, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 14:45:55) [GET]
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 3) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 2) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 1) [0m
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://test.host/flights]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 14:45:55) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 14:45:55) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 4ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.3ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 12:48:21', 'BER', '2010-09-15 12:48:21', 1)[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 12:48:21', 'BER', '2010-09-15 12:48:21', 1)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-15 12:48:21', 'TKO', '2010-09-15 12:48:21', 3)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Create (0.5ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 12:48:21', 'DE', '2010-09-15 12:48:21')[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 12:48:21', 'DE', '2010-09-15 12:48:21')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;35;1mAirport Load (0.7ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.6ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 14:48:21) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_airport_id"=>735778779, "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010}}
+  [4;35;1mFlight Create (0.4ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 12:48:21', '2010-09-06 10:50:00', '2010-09-15 12:48:21', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 6ms (DB: 14) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 14:48:21) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.5ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 4ms (DB: 2) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 14:48:21) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 31ms (View: 30, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 14:48:21) [GET]
+  [4;36;1mFlight Load (0.6ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+Completed in 14ms (View: 12, DB: 1) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 14:48:21) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 27ms (View: 27, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 14:48:21) [GET]
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 0) [0m
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://test.host/flights]
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 14:48:21) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 14:48:21) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Create (0.5ms)[0m   [0mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 13:37:36', 'BER', '2010-09-15 13:37:36', 1)[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Berlin Int. Airport', '2010-09-15 13:37:36', 'BER', '2010-09-15 13:37:36', 1)[0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'TKO') LIMIT 1[0m
+  [4;36;1mAirport Create (0.3ms)[0m   [0;1mINSERT INTO "airports" ("name", "created_at", "code", "updated_at", "country_id") VALUES('Tokio Int Airport', '2010-09-15 13:37:36', 'TKO', '2010-09-15 13:37:36', 3)[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mCountry Load (0.3ms)[0m   [0;1mSELECT * FROM "countries" WHERE ("countries"."id" = 338130558) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "airports" [0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" IS NULL) LIMIT 1[0m
+  [4;35;1mAirport Load (0.1ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'BER') LIMIT 1[0m
+  [4;36;1mAirport Load (0.1ms)[0m   [0;1mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FRA') LIMIT 1[0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT "airports".id FROM "airports" WHERE ("airports"."code" = 'FR') LIMIT 1[0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Create (0.3ms)[0m   [0;1mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 13:37:36', 'DE', '2010-09-15 13:37:36')[0m
+  [4;35;1mCountry Load (0.2ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.2ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Create (0.3ms)[0m   [0mINSERT INTO "countries" ("name", "created_at", "code", "updated_at") VALUES('Germany', '2010-09-15 13:37:36', 'DE', '2010-09-15 13:37:36')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "countries" [0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" IS NULL) LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;35;1mCountry Load (0.1ms)[0m   [0mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'DE') LIMIT 1[0m
+  [4;36;1mCountry Load (0.1ms)[0m   [0;1mSELECT "countries".id FROM "countries" WHERE ("countries"."code" = 'D') LIMIT 1[0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 15:37:38) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010, "departure_airport_id"=>735778779}}
+  [4;35;1mFlight Create (0.4ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 13:37:38', '2010-09-06 10:50:00', '2010-09-15 13:37:38', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 12ms (DB: 3) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 15:37:38) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.3ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 15:37:38) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 32ms (View: 31, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:37:38) [GET]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 17ms (View: 14, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 15:37:38) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 28ms (View: 27, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:37:38) [GET]
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 13ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 15:37:39) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 74ms (View: 3, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 15:37:39) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 15:45:03) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010, "departure_airport_id"=>735778779}}
+  [4;35;1mFlight Create (0.5ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 13:45:03', '2010-09-06 10:50:00', '2010-09-15 13:45:03', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 11ms (DB: 3) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 15:45:03) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.4ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 15:45:03) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 30ms (View: 29, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:45:03) [GET]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 14ms (View: 12, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 15:45:03) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 25ms (View: 25, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:45:03) [GET]
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 12ms (View: 9, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:45:04) [GET]
+  [4;36;1mFlight Load (0.6ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 12ms (View: 9, DB: 2) | 200 OK [http://test.host/flights]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 15:45:04) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 15:45:04) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 4ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 15:46:48) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010, "departure_airport_id"=>735778779}}
+  [4;35;1mFlight Create (0.4ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 13:46:48', '2010-09-06 10:50:00', '2010-09-15 13:46:48', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 12ms (DB: 12) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 15:46:48) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.3ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 15:46:48) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 30ms (View: 29, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:46:48) [GET]
+  [4;36;1mFlight Load (0.6ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 15ms (View: 12, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 15:46:48) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 25ms (View: 25, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:46:48) [GET]
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 12ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:46:49) [GET]
+  [4;36;1mFlight Load (0.7ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 13ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 15:46:49) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 15:46:49) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 15:48:54) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010, "departure_airport_id"=>735778779}}
+  [4;35;1mFlight Create (0.4ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 13:48:54', '2010-09-06 10:50:00', '2010-09-15 13:48:54', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 12ms (DB: 3) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 15:48:54) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.3ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 15:48:54) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.3ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 30ms (View: 29, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:48:54) [GET]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 15ms (View: 12, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 15:48:54) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 25ms (View: 25, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:48:54) [GET]
+  [4;35;1mFlight Load (0.6ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 12ms (View: 9, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:48:54) [GET]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 82ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 15:48:55) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 15:48:55) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mAirport Load (0.5ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.4ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+
+
+Processing FlightsController#create (for 0.0.0.0 at 2010-09-15 15:50:55) [POST]
+  Parameters: {"flight"=>{"arrival_airport_id"=>912262284, "arrival_datetime"=>Mon Sep 06 12:50:00 +0200 2010, "nr"=>"RA123", "departure_datetime"=>Mon Sep 06 13:50:00 +0200 2010, "departure_airport_id"=>735778779}}
+  [4;35;1mFlight Create (0.5ms)[0m   [0mINSERT INTO "flights" ("arrival_airport_id", "created_at", "arrival_datetime", "updated_at", "nr", "departure_datetime", "departure_airport_id") VALUES(912262284, '2010-09-15 13:50:55', '2010-09-06 10:50:00', '2010-09-15 13:50:55', 'RA123', '2010-09-06 11:50:00', 735778779)[0m
+Redirected to http://test.host/flights/933510313
+Completed in 23ms (DB: 75) | 302 Found [http://test.host/flights?flight%5Barrival_airport_id%5D=912262284&flight%5Barrival_datetime%5D=Mon+Sep+06+12%3A50%3A00+%2B0200+2010&flight%5Bdeparture_airport_id%5D=735778779&flight%5Bdeparture_datetime%5D=Mon+Sep+06+13%3A50%3A00+%2B0200+2010&flight%5Bnr%5D=RA123]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#destroy (for 0.0.0.0 at 2010-09-15 15:50:55) [DELETE]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.5ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+  [4;36;1mFlight Destroy (0.3ms)[0m   [0;1mDELETE FROM "flights" WHERE "id" = 491221900[0m
+Redirected to http://test.host/flights
+Completed in 3ms (DB: 2) | 302 Found [http://test.host/flights/491221900]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "flights" [0m
+  [4;36;1mFlight Load (0.4ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#edit (for 0.0.0.0 at 2010-09-15 15:50:55) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/edit
+Completed in 33ms (View: 31, DB: 1) | 200 OK [http://test.host/flights/491221900/edit]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:50:56) [GET]
+  [4;36;1mFlight Load (0.7ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.4ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 16ms (View: 13, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#new (for 0.0.0.0 at 2010-09-15 15:50:56) [GET]
+Rendering template within layouts/flights
+Rendering flights/new
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://test.host/flights/new]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:50:56) [GET]
+  [4;35;1mFlight Load (0.6ms)[0m   [0mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.3ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.2ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 14ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+
+
+Processing FlightsController#index (for 0.0.0.0 at 2010-09-15 15:50:56) [GET]
+  [4;36;1mFlight Load (0.5ms)[0m   [0;1mSELECT * FROM "flights" [0m
+Rendering template within layouts/flights
+Rendering flights/index
+  [4;35;1mAirport Load (0.4ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 735778779) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;35;1mAirport Load (0.3ms)[0m   [0mSELECT * FROM "airports" WHERE ("airports"."id" = 912262284) [0m
+  [4;36;1mAirport Load (0.2ms)[0m   [0;1mSELECT * FROM "airports" WHERE ("airports"."id" = 481577152) [0m
+Completed in 83ms (View: 10, DB: 2) | 200 OK [http://test.host/flights]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#show (for 0.0.0.0 at 2010-09-15 15:50:56) [GET]
+  Parameters: {"id"=>"491221900"}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Rendering template within layouts/flights
+Rendering flights/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/flights/491221900]
+  [4;35;1mFlight Load (0.4ms)[0m   [0mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+
+
+Processing FlightsController#update (for 0.0.0.0 at 2010-09-15 15:50:56) [PUT]
+  Parameters: {"id"=>"491221900", "flight"=>{}}
+  [4;36;1mFlight Load (0.3ms)[0m   [0;1mSELECT * FROM "flights" WHERE ("flights"."id" = 491221900) [0m
+Redirected to http://test.host/flights/491221900
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/flights/491221900?]

@@ -5,22 +5,22 @@
 
 <p>
   <b>Departure datetime:</b>
-  <%=h @flight.departure_datetime %>
+  <%=h german_date(@flight.departure_datetime) %>
 </p>
 
 <p>
   <b>Arrival datetime:</b>
-  <%=h @flight.arrival_datetime %>
+  <%=h german_date(@flight.arrival_datetime) %>
 </p>
 
 <p>
   <b>Departure airport:</b>
-  <%=h @flight.departure_airport_id %>
+  <%=h @flight.departure_airport.code%>
 </p>
 
 <p>
   <b>Arrival airport:</b>
-  <%=h @flight.arrival_airport_id %>
+  <%=h @flight.arrival_airport.code %>
 </p>
 
 

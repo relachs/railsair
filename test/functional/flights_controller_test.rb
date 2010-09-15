@@ -48,4 +48,9 @@ class FlightsControllerTest < ActionController::TestCase
     assert_select 'td', 'DUS'
     assert_select 'td', 'HAM'    
   end
+  
+  test "should show a german date in index" do
+    get :index
+    assert_select 'td', '06.09.2010 17:00' # 2010-09-06 17:00
+  end
 end
